@@ -8,15 +8,15 @@ class RockPaperScissors < Sinatra::Base
   end
 
   get '/' do
-    # @name = session[:plname]
+    @name = session[:plname]
     erb(:index)
   end
 
   post '/name_of_player' do
     p params
-    @storedname = params[:pname]
-    p @storedname
-    # redirect '/'
+    session[:plname] = params[:pname]
+    p :plname
+    redirect '/'
   end
 
   get '/player_name' do
