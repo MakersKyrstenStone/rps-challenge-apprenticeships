@@ -1,5 +1,10 @@
 # RPS Challenge
 
+Started this with very little knowledge as i hadn't been able to complete as much of the learning in the week as i would need to complete further steps of this challenge.
+I had to go back into the weekly material and continue my learning before i code even write a test as i had not got that far.
+i feel i have done well considering as EVERYTHING i have written i have learned myself and understoood what it does and how it works.
+so don't expect too much......
+
 ## Instructions
 
 * Challenge time: until the end of the day
