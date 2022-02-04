@@ -10,4 +10,5 @@ feature 'test page' do
       expect(page).to have_content('Welcome')
     end
   end
+  
 end
